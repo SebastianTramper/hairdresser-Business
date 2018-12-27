@@ -1,0 +1,28 @@
+body{
+  height: 100%;
+  display: grid;
+/*column hoeveelheid & breedte*/
+  grid-template-columns: repeat(12, 1fr);
+/*Row hoeveelheid & hoogte */
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "h h h h h h h h h h h h"
+  "c c c c c c c c c c c c"
+  "f f f f f f f f f f f f";
+}
+
+/*header (h)*/
+body header{
+  grid-area: h;
+}
+
+/*content (m)*/
+body main{
+  grid-area: c;
+}
+
+/*footer (f)*/
+body footer{
+  grid-area: f;
+}
+

@@ -1,0 +1,75 @@
+@media only screen and (min-width: 600px) {
+
+    main h2{
+        font-size: 50px;
+    }
+    .nav-toggle{
+        position: absolute;
+        width: 65px;
+    }
+
+    .nav-close{
+        width: 65px;
+    }
+
+    .side-nav{
+        left: -80%;
+        width: 80%;
+    }
+
+    .header-h1{
+        font-size: 62px;
+        line-height: 80px;
+    }
+
+    .header-profiel{
+        display: block;
+        margin: 0 10px 2px 30px;
+        float: left;
+    }
+
+    .header-regio{
+        font-size: 40px;
+    }
+    .header-regio-background{
+        height: 150px;
+    }
+
+    .header-title{
+        top: 25%;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .header-h1{
+        font-size: 66px;
+    }
+    .header-footer{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1020px){
+
+    .header-mid{
+        margin-top: -100px;
+    }
+
+    .header-slider{
+        display: block;
+        position: absolute;
+        object-fit: cover;
+        height: 35em;
+        bottom: 0;
+        z-index: 0;
+    }
+
+    .contact-header{
+        font-size: 2.5rem;
+    }
+    .contact-submit{
+        font-size: 1.3rem;
+    }
+    
+}
