@@ -21,13 +21,13 @@
         <!-- navigation section -->
         <img src="img/menu.svg" alt="menu " class="nav-toggle" >
         <section class="side-nav">
-            <img src="img/close.svg" alt="close" class="nav-close">
+            <img src="img/close.svg" alt="close" class="nav-close-styles nav-close">
             <nav>
                 <ul>
-                    <li class="nav-1"><a href="contact.php">Afspraak maken</a></li>
-                    <li class="nav-2"><a href="index.php">Homepagina</a></li>
-                    <li class="nav-3"><a href="producten.html">Producten</a></li>
-                    <li class="nav-4"><a href="diensten.html">Diensten</a></li>
+                    <li class="nav-1 nav-li"><a href="#bel-chanel">Bel Chanel</a></li>
+                    <li class="nav-2 nav-li"><a href="#bel-daisy">Bel Daisy</a></li>
+                    <li class="nav-3 nav-li"><a href="#diensten">Diensten</a></li>
+                    <li class="nav-4 nav-li"><a href="#mail-ons">Mail ons</a></li>
                 </ul>
             </nav>
         </section>
@@ -46,45 +46,61 @@
     </header>
     <!--main section -->
     <main>
+        <!-- Bellen section -->
+        <section id="bel-chanel">
+                <form class="contact-form" action="tel:0612779366">
+                    <h2>Bel Chanel</h2>
+                    <h6>Voor regio Reimerswaal</h6>
+                    <button class="contact-button" type="submit" name="submit"><p class="contact-submit"> <a href="tel:+31612779366">bellen</a><p></button>
+                    <label for="">telefoonnummer: 0612779366</label>
+                </form>
+        </section>
+        <section id="bel-daisy">
+                <form class="contact-form" action="tel:0612779366">
+                    <h2>Bel Daisy</h2>
+                    <h6>Voor regio Borselen</h6>
+                    <button class="contact-button" type="submit" name="submit"><p class="contact-submit"> <a href="tel:+31612611293">bellen</a><p></button>
+                    <label for="">ons telefoonnummer: 0612611293</label>
+                </form>
+        </section>
         <!-- Over ons section -->
-        <article class=" main-1 main-article">
+        <article class=" main-1 main-article" id="over-ons">
             <h2>Over ons</h2>
             <img src="img/profiel.png" alt="profiel" class="header-profiel">
             <div><p>Hallo, Wij zijn Chanel en Daisy, twee zussen en kapsters aan huis. Wilt u een betrouwbare, gezellige en hygiënische thuiskapster? Dan bent u bij ons aan het goede adres! Wij zijn voorzien van een mobiele wastafel, dat maakt een behandeling bij u thuis nog veel makkelijker!
-Wij knippen, kleuren, permanenten, föhnen en u kunt ons ook bellen voor een opsteekkapsel. Ook doen wij kinderen knippen en zijn wij altijd bereid advies te geven over uw kapsel. Interesse? Bel gerust! Voor omgeving Krabbendijke belt u Chanel: 0612779366 Voor omgeving s’Heerenhoek belt u Daisy: 0612611293
-Als de één niet kan valt de ander in. U hoeft dus nooit lang te wachten op een afspraak.
+Wij knippen, kleuren, permanenten, föhnen en u kunt ons ook bellen voor een opsteekkapsel. Ook doen wij kinderen knippen en zijn wij altijd bereid advies te geven over uw kapsel. <br><br>   </p>
+                <p><strong>Interesse? Bel gerust!</strong><br><br>Voor omgeving Krabbendijke belt u Chanel: <strong>0612779366</strong><br><br> Voor omgeving s’Heerenhoek belt u Daisy: <strong>0612611293</strong><br><br> 
+                    Als de één niet kan valt de ander in. U hoeft dus nooit lang te wachten op een afspraak.</p>
 </p></div>
         </article>
         <!-- Diensten section -->
-        <section class="main-2">
+        <section class="main-2" id="diensten">
             <h2>Diensten</h2>
-            <section class="main-diensten"><figure class="main-figure-1">
-                    <img src="https://source.unsplash.com/user/erondu/2100x1000" alt="dienst">
-                    <figcaption>Hier komt info over de dienst</figcaption>
+            <section class="main-diensten">
+                <figure class="main-figure-1">
+                    <img src="img/haircut-men.jpg" alt="dienst">
+                    <figcaption>Knippen volwassenen en kinderen</figcaption>
                 </figure>
                 <figure>
-                    <img src="https://source.unsplash.com/user/erondu/2100x1000" alt="dienst">
-                    <figcaption>Hier komt info over de dienst</figcaption>
+                    <img class="dienst-image" src="img/hair-perm1.jpg" alt="dienst">
+                    <figcaption>Kleuren (spoeling permanente kleuring folies)</figcaption>
                 </figure>
                 <figure>
-                    <img src="https://source.unsplash.com/user/erondu/2100x1000" alt="dienst">
-                    <figcaption>Hier komt info over de dienst</figcaption>
+                    <img class="dienst-image" src="img/haar-kleuren.jpg" alt="dienst">
+                    <figcaption>permanenten</figcaption>
                 </figure>
                 <figure>
-                    <img src="https://source.unsplash.com/user/erondu/2100x1000" alt="dienst">
-                    <figcaption>Hier komt info over de dienst</figcaption>
+                    <img class="dienst-image" src="img/hair-perm.jpg" alt="dienst">
+                    <figcaption>Föhnen</figcaption>
                 </figure>
                 <figure>
-                    <img src="https://source.unsplash.com/user/erondu/2100x1000" alt="dienst">
-                    <figcaption>Hier komt info over de dienst</figcaption>
+                    <img class="dienst-image" src="img/fohnen.jpg" alt="dienst">
+                    <figcaption>opsteken</figcaption>
                 </figure>
             </section>
         </section>
-        <section class="main-3" role="advertentie">
-            <!-- hier komen advertentie's -->
-        </section>
         <!-- opitoneel producten -->
-        <section class="main-4">
+        <section class="main-producten">
             <h2>Producten</h2>
             <figure>
                 <img src="https://source.unsplash.com/user/erondu/2100x1000" alt="dienst">
@@ -106,6 +122,20 @@ Als de één niet kan valt de ander in. U hoeft dus nooit lang te wachten op een
                 <img src="https://source.unsplash.com/user/erondu/2100x1000" alt="dienst">
                 <figcaption>Hier komt een product</figcaption>
             </figure>
+        </section>
+        <section>
+            <form class="contact-form" action="contactform.php" method="post" id="mail-ons">
+                <h2 class="contact-header">Stuur ons een bericht</h2>
+                <label class="contact-label"for="naam"> Naam: </label>
+                <input class="contact-input" type="text" name="name">
+                <label class="contact-label"for="mail">E-mail:</label>
+                <input class="contact-input" type="text" name="mail">
+                <label class="contact-label"for="onderwerp">Telefoonnummer:</label>
+                <input class="contact-input" type="text" name="subject">
+                <label class="contact-label"for="bericht">Bericht:<i>(Vermeld: gewenste datum, personen en eventueel behandeling)</i></label>
+                <textarea class="contact-textarea" name="message"></textarea>
+                <button class="contact-button" type="submit" name="submit"><p class="contact-submit">Verstuur bericht<p></button>
+            </form>
         </section>
     </main>
     <!-- footer section -->
