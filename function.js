@@ -12,3 +12,11 @@ $('.nav-li').click(function(){
     $('.side-nav').removeClass('toggled')
     $('.body').removeClass('body-fixed');
 })
+
+function fillNummerChanel(){
+    document.getElementById("bel-chanel").action = "tel:0612779366";
+}
+
+function fillNummerDaisy(){
+    document.getElementById("bel-daisy").action = "tel:0612779366";
+}
