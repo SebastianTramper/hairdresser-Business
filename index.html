@@ -101,8 +101,11 @@ Wij knippen, kleuren, permanenten, föhnen en u kunt ons ook bellen voor een ops
             </section>
         </section>
         <section>
-            <form class="contact-form" action="bedankt.html" method="post" data-netlify="true" id="mail-ons">
+            <form class="contact-form" action="bedankt.html" method="post" netlify-honeypot="bot-field" data-netlify="true" id="mail-ons">
                 <h2>Stuur ons een bericht</h2>
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                </p>
                 <label class="contact-label"for="naam"> Naam: </label>
                 <input class="contact-input" type="text" name="name">
                 <label class="contact-label"for="mail">E-mail:</label>
