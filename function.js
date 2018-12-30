@@ -14,9 +14,9 @@ $('.nav-li').click(function(){
 })
 
 function fillNummerChanel(){
-    document.getElementById("bel-chanel").action = "tel:0612779366";
+    document.getElementById("cal-button-chanel").href = "tel:0612779366";
 }
 
 function fillNummerDaisy(){
-    document.getElementById("bel-daisy").action = "tel:0612779366";
+    document.getElementById("cal-button-chanel").href = "tel:0612779366";
 }
