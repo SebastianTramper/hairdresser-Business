@@ -112,10 +112,17 @@ Wij knippen, kleuren, permanenten, föhnen en u kunt ons ook bellen voor een ops
                 <label class="contact-label"for="bericht">Bericht:<i>(Vermeld: gewenste datum, personen en eventueel behandeling)</i></label>
                 <textarea class="contact-textarea" name="message"></textarea>
                 <div data-netlify-recaptcha="true"></div>
-                <div class="g-recaptcha" data-sitekey="6Lc-ZIUUAAAAABH_gKyrgCy0Kqi__a8VPXaOy1L6"></div>
                 <button class="contact-button" type="submit" name="submit"><p class="contact-submit">Verstuur bericht<p></button>
             </form>
         </section>
+        <script>
+            grecaptcha.ready(function() {
+            grecaptcha.execute('6Lenp4UUAAAAAJ2uey0zya8CxazYSepSsxYFPJLS', {action: 'action_name'})
+            .then(function(token) {
+            // Verify the token on the server.
+            });
+            });
+            </script>
     </main>
     <!-- footer section -->
     <footer class="footer-main">
