@@ -55,7 +55,7 @@ p {
 .side-nav nav ul{
     display: grid;
     grid-template-columns: 1% 1fr;
-    grid-template-rows: 8% 20% 20% 20% 20%;
+    grid-template-rows: 8% 1fr 1fr 1fr 1fr 1fr;
     height: 100%;
     padding: 0;
 }
@@ -78,6 +78,11 @@ p {
 .nav-4{
     grid-column: 2 /3;
     grid-row: 5 / 6;
+}
+
+.nav-5{
+    grid-column: 2 /3;
+    grid-row: 6 / 7;    
 }
 
 

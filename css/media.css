@@ -55,12 +55,37 @@
         margin: 10px auto 20px auto;
     }
 
+
+    /* laat bij groot scherm de bel formulieren verdwijnen */
     #bel-chanel{
         display: none;
     }
 
     #bel-daisy{
         display: none;
+    }
+
+    .nav-1, .nav-2{
+        display: none;
+    }
+
+    .side-nav nav ul{
+        grid-template-rows: 8% 1fr 1fr 1fr;
+    }
+
+    .nav-3{
+        grid-column: 2 /3;
+        grid-row: 2 / 3;
+    }
+    
+    .nav-4{
+        grid-column: 2 /3;
+        grid-row: 3 / 4;
+    }
+    
+    .nav-5{
+        grid-column: 2 /3;
+        grid-row: 4 / 5;    
     }
 
 }
