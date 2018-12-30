@@ -23,5 +23,5 @@ $('.nav-li').click(function(){
 
 
 function call(){
-    window.top.location = 'tel:0612779366';
+    window.location.href = 'tel:0612779366';
 }
