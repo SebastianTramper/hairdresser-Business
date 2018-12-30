@@ -20,3 +20,8 @@ $('.nav-li').click(function(){
 // function fillNummerDaisy(){
 //     document.getElementById("cal-button-chanel").href = "tel:0612779366";
 // }
+
+
+function call(){
+    window.top.location = 'tel:0612779366';
+}
