@@ -7,7 +7,7 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src='https://www.google.com/recaptcha/api.js?render=6LfCq4UUAAAAACXJdUG4mxaxL3BhEW6gFwG9Ybly'></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid-layout.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -101,15 +101,7 @@ Wij knippen, kleuren, permanenten, föhnen en u kunt ons ook bellen voor een ops
             </section>
         </section>
         <section>
-                <script>
-                    grecaptcha.ready(function() {
-                    grecaptcha.execute('6Lenp4UUAAAAAJ2uey0zya8CxazYSepSsxYFPJLS', {action: 'action_name'})
-                    .then(function(token) {
-                    // Verify the token on the server.
-                    });
-                    });
-                </script>
-            <form class="contact-form" action="bedankt.html" data-netlify-recaptcha="true" data-netlify="true" method="post" id="mail-ons">
+            <form class="contact-form" action="bedankt.html" method="post" id="mail-ons">
                 <h2>Stuur ons een bericht</h2>
                 <label class="contact-label"for="naam"> Naam: </label>
                 <input class="contact-input" type="text" name="name">
@@ -119,7 +111,6 @@ Wij knippen, kleuren, permanenten, föhnen en u kunt ons ook bellen voor een ops
                 <input class="contact-input" type="text" name="subject">
                 <label class="contact-label"for="bericht">Bericht:<i>(Vermeld: gewenste datum, personen en eventueel behandeling)</i></label>
                 <textarea class="contact-textarea" name="message"></textarea>
-                <div data-netlify-recaptcha="true"></div>
                 <button class="contact-button" type="submit" name="submit"><p class="contact-submit">Verstuur bericht<p></button>
             </form>
         </section>
