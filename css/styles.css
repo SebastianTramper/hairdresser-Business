@@ -380,6 +380,13 @@ figcaption{
     color: rgba(0, 0, 0, 0.336);
 }
 
+.anti-spam-tekst{
+    color: red;
+    text-align: left;
+    font-size: 14px;
+    font-style: bold;
+}
+
 .contact-button{
     margin: 1rem 0;
     border: 4px solid rgb(49, 49, 49);
