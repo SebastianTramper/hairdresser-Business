@@ -13,10 +13,10 @@ $('.nav-li').click(function(){
     $('.body').removeClass('body-fixed');
 })
 
-function fillNummerChanel(){
-    document.getElementById("cal-button-chanel").href = "tel:0612779366";
-}
+// function fillNummerChanel(){
+//     document.getElementById("cal-button-chanel").href = "tel:0612779366";
+// }
 
-function fillNummerDaisy(){
-    document.getElementById("cal-button-chanel").href = "tel:0612779366";
-}
+// function fillNummerDaisy(){
+//     document.getElementById("cal-button-chanel").href = "tel:0612779366";
+// }
