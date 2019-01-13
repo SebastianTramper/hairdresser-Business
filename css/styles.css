@@ -453,6 +453,7 @@ small p{
 
 .bedant-bericht{
     color: red;
-    font-size: calc(48px + 1vw)
+    font-size: calc(48px + 1vw);
+    margin: 10vh;
 }
 
