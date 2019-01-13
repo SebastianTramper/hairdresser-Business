@@ -431,15 +431,15 @@ figcaption{
     padding-top: 70px;
 }
 
+.footer-lower-section a p{
+    margin-bottom: 30px;
+}
+
 .footer-main p, .footer-main h6, .footer-main a, .footer-main address{
     color: #fff;
     text-decoration: none;
     font-family: 'Vollkorn', serif;
     font-size: 1rem;
-}
-
-.footer-main address p {
-    padding-bottom: 30px;
 }
 
 small p{
@@ -450,10 +450,9 @@ small p{
     margin: 10px;
 }
 
-
 .footer-icon{
-    width: 60px;
-    height: 60px;
+    width: 85px;
+    height: 85px;
     margin: 2px;
 }
 
