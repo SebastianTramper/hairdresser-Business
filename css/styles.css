@@ -451,9 +451,18 @@ small p{
 
 /* bedankt page *****************************************************************************************************************/
 
-.bedant-bericht{
-    color: red;
-    font-size: calc(48px + 1vw);
-    margin: 10vh;
+section .bedankt-bericht{
+    margin: 100px 0;
 }
 
+.bedankt-bericht{
+    text-align: center;
+    color: #222;
+    font-size: calc(16px + 1vw);
+    
+}
+
+.bedankt-bericht:after{
+    display: none;
+    text-align: center;
+}
