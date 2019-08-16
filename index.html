@@ -21,6 +21,11 @@
     <link rel="stylesheet" href="css/grid-layout.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
 
     <!-- change the title -->
     <title>Kapsters aan huis Reimerswaal | Borsele</title>
@@ -39,7 +44,7 @@
                     <li class="nav-2 nav-li"><a href="#bel-daisy">Bel Daisy</a></li>
                     <li class="nav-3 nav-li"><a href="#diensten">Over ons</a></li>
                     <li class="nav-4 nav-li"><a href="#diensten">Diensten</a></li>
-                    <li class="nav-5 nav-li"><a href="#mail-ons">Mail ons</a></li>
+                    <li class="nav-5 nav-li"><a href="#locatie">Locatie</a></li>
                 </ul>
             </nav>
         </section>
@@ -92,44 +97,34 @@ Wij knippen, kleuren, permanenten, föhnen en u kunt ons ook bellen voor een ops
             <p>De prijs van de overige behandelingen is altijd in overleg met Chanel of Daisy</p>
             <section class="main-diensten">
                 <figure class="main-figure-1">
-                    <img src="img/haircut-men.jpg" alt="dienst">
+                        <a data-fancybox="gallery" href="img/haircut-men.jpg"><img src="img/haircut-men.jpg"></a>
                     <figcaption>Knippen volwassenen en kinderen</figcaption>
                 </figure>
                 <figure>
-                    <img class="dienst-image" src="img/hair-perm1.jpg" alt="dienst">
+                        <a data-fancybox="gallery" href="img/hair-perm1.jpg"><img src="img/hair-perm1.jpg"></a>
                     <figcaption>Permanenten</figcaption>
                 </figure>
                 <figure>
-                    <img class="dienst-image" src="img/haar-kleuren.jpg" alt="dienst">
-                    <figcaption>Kleuren (spoeling permanente kleuring folies)</figcaption>
+                    <a data-fancybox="gallery" href="img/fohnen.jpg"><img src="img/fohnen.jpg"></a>
+                    <figcaption>Föhnen</figcaption>
                 </figure>
                 <figure>
-                    <img class="dienst-image" src="img/hair-perm.jpg" alt="dienst">
+                    <a data-fancybox="gallery" href="img/hair-perm.jpg"><img src="img/hair-perm.jpg"></a>
                     <figcaption>Overige behandelingen in overleg</figcaption>
                 </figure>
                 <figure>
-                    <img class="dienst-image" src="img/fohnen.jpg" alt="dienst">
-                    <figcaption>Föhnen</figcaption>
+                        <a data-fancybox="gallery" href="img/haar-kleuren.jpg"><img src="img/haar-kleuren.jpg"></a>
+                    <figcaption>Kleuren (spoeling permanente kleuring folies)</figcaption>
                 </figure>
             </section>
         </section>
+        <section id="locatie">
+            <h2>Regio Reimerswaal</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159142.504311299!2d3.996234515170299!3d51.447109537134224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4686b21b3883d%3A0xdec0b845f041a8b8!2sReimerswaal!5e0!3m2!1snl!2snl!4v1565982002996!5m2!1snl!2snl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
         <section>
-            <form class="contact-form" action="bedankt.html" method="post" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true" id="mail-ons">
-                <h2>Stuur ons een bericht</h2>
-                <p class="hidden">
-                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                </p>
-                <label class="contact-label"for="naam"> Naam: </label>
-                <input class="contact-input" type="text" name="name">
-                <label class="contact-label"for="mail">E-mail:</label>
-                <input class="contact-input" type="text" name="mail">
-                <label class="contact-label"for="onderwerp">Telefoonnummer:</label>
-                <input class="contact-input" type="text" name="subject">
-                <label class="contact-label"for="bericht">Bericht:<i>(Vermeld: gewenste datum, personen en eventueel behandeling)</i></label>
-                <textarea class="contact-textarea" name="message"></textarea>
-                <div netlify-recaptcha></div>
-                <button class="contact-button" type="submit" name="submit"><p class="contact-submit">Verstuur bericht<p></button>
-            </form>
+            <h2>Regio Borsele</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79576.67921483368!2d3.7421325513528476!3d51.443995180645736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c48612f4658e8d%3A0x68f9066d7d02df5b!2sBorsele!5e0!3m2!1snl!2snl!4v1565981892304!5m2!1snl!2snl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
     </main>
     <!-- footer section -->
@@ -147,7 +142,6 @@ Wij knippen, kleuren, permanenten, föhnen en u kunt ons ook bellen voor een ops
             <address><a href="http://iamsebastiantramper.com/" rel="author"><p>www.iamsebastiantramper.com</p></a></address>
         </section>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
     <script type="text/javascript" src="function.js" defer></script>
 </body>
 </html>
